@@ -21,7 +21,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCalendarsUsageDescription</key>
-	<string>GearShift needs access to your calendar to export training sessions.</string>
 </dict>
 </plist>

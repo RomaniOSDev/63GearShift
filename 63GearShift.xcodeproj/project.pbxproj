@@ -3,29 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		74193ACC2F289EEE0004F61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74193AC22F289EEE0004F61F /* Assets.xcassets */; };
+		74193ACE2F289EEE0004F61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74193AC62F289EEE0004F61F /* LaunchScreen.storyboard */; };
+		74193ACF2F289EEE0004F61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74193AC82F289EEE0004F61F /* Main.storyboard */; };
+		74193AD02F289EEE0004F61F /* Color+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193A9D2F289EEE0004F61F /* Color+Brand.swift */; };
+		74193AD12F289EEE0004F61F /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193A9F2F289EEE0004F61F /* Achievement.swift */; };
+		74193AD22F289EEE0004F61F /* CycleGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA02F289EEE0004F61F /* CycleGoal.swift */; };
+		74193AD32F289EEE0004F61F /* CycleWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA12F289EEE0004F61F /* CycleWeek.swift */; };
+		74193AD42F289EEE0004F61F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA22F289EEE0004F61F /* Exercise.swift */; };
+		74193AD52F289EEE0004F61F /* TrainingCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA32F289EEE0004F61F /* TrainingCycle.swift */; };
+		74193AD62F289EEE0004F61F /* TrainingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA42F289EEE0004F61F /* TrainingSession.swift */; };
+		74193AD72F289EEE0004F61F /* WaveSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA52F289EEE0004F61F /* WaveSettings.swift */; };
+		74193AD82F289EEE0004F61F /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA72F289EEE0004F61F /* StorageService.swift */; };
+		74193AD92F289EEE0004F61F /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AA92F289EEE0004F61F /* WaveCalculator.swift */; };
+		74193ADA2F289EEE0004F61F /* AchievementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AAB2F289EEE0004F61F /* AchievementViewModel.swift */; };
+		74193ADB2F289EEE0004F61F /* ActiveCycleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AAC2F289EEE0004F61F /* ActiveCycleViewModel.swift */; };
+		74193ADC2F289EEE0004F61F /* CycleBuilderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AAD2F289EEE0004F61F /* CycleBuilderViewModel.swift */; };
+		74193ADD2F289EEE0004F61F /* CycleDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AAE2F289EEE0004F61F /* CycleDashboardViewModel.swift */; };
+		74193ADE2F289EEE0004F61F /* WaveSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AAF2F289EEE0004F61F /* WaveSettingsViewModel.swift */; };
+		74193ADF2F289EEE0004F61F /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB12F289EEE0004F61F /* CheckLink.swift */; };
+		74193AE02F289EEE0004F61F /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB22F289EEE0004F61F /* InternetViewController.swift */; };
+		74193AE12F289EEE0004F61F /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB32F289EEE0004F61F /* LoaderViewController.swift */; };
+		74193AE22F289EEE0004F61F /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB52F289EEE0004F61F /* AchievementsView.swift */; };
+		74193AE32F289EEE0004F61F /* ActiveCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB62F289EEE0004F61F /* ActiveCycleView.swift */; };
+		74193AE42F289EEE0004F61F /* CycleAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB72F289EEE0004F61F /* CycleAnalysisView.swift */; };
+		74193AE52F289EEE0004F61F /* CycleBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB82F289EEE0004F61F /* CycleBuilderView.swift */; };
+		74193AE62F289EEE0004F61F /* CycleDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AB92F289EEE0004F61F /* CycleDashboardView.swift */; };
+		74193AE72F289EEE0004F61F /* DetailedWeekPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABA2F289EEE0004F61F /* DetailedWeekPlanView.swift */; };
+		74193AE82F289EEE0004F61F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABB2F289EEE0004F61F /* HomeView.swift */; };
+		74193AE92F289EEE0004F61F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABC2F289EEE0004F61F /* OnboardingView.swift */; };
+		74193AEA2F289EEE0004F61F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABD2F289EEE0004F61F /* SettingsView.swift */; };
+		74193AEB2F289EEE0004F61F /* WaveSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABE2F289EEE0004F61F /* WaveSettingsView.swift */; };
+		74193AEC2F289EEE0004F61F /* WeekPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ABF2F289EEE0004F61F /* WeekPlanView.swift */; };
+		74193AED2F289EEE0004F61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AC12F289EEE0004F61F /* AppDelegate.swift */; };
+		74193AEE2F289EEE0004F61F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AC32F289EEE0004F61F /* ContentView.swift */; };
+		74193AEF2F289EEE0004F61F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193AC92F289EEE0004F61F /* SceneDelegate.swift */; };
+		74193AF02F289EEE0004F61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74193ACA2F289EEE0004F61F /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		424CC41B89DBE401D830BA16 /* Pods-63GearShift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-63GearShift.release.xcconfig"; path = "Target Support Files/Pods-63GearShift/Pods-63GearShift.release.xcconfig"; sourceTree = "<group>"; };
 		4D2C3AEEB5860F7C2484E806 /* Pods_63GearShift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_63GearShift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74193A9D2F289EEE0004F61F /* Color+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Brand.swift"; sourceTree = "<group>"; };
+		74193A9F2F289EEE0004F61F /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		74193AA02F289EEE0004F61F /* CycleGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleGoal.swift; sourceTree = "<group>"; };
+		74193AA12F289EEE0004F61F /* CycleWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleWeek.swift; sourceTree = "<group>"; };
+		74193AA22F289EEE0004F61F /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		74193AA32F289EEE0004F61F /* TrainingCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCycle.swift; sourceTree = "<group>"; };
+		74193AA42F289EEE0004F61F /* TrainingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSession.swift; sourceTree = "<group>"; };
+		74193AA52F289EEE0004F61F /* WaveSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSettings.swift; sourceTree = "<group>"; };
+		74193AA72F289EEE0004F61F /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		74193AA92F289EEE0004F61F /* WaveCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveCalculator.swift; sourceTree = "<group>"; };
+		74193AAB2F289EEE0004F61F /* AchievementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewModel.swift; sourceTree = "<group>"; };
+		74193AAC2F289EEE0004F61F /* ActiveCycleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCycleViewModel.swift; sourceTree = "<group>"; };
+		74193AAD2F289EEE0004F61F /* CycleBuilderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBuilderViewModel.swift; sourceTree = "<group>"; };
+		74193AAE2F289EEE0004F61F /* CycleDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleDashboardViewModel.swift; sourceTree = "<group>"; };
+		74193AAF2F289EEE0004F61F /* WaveSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSettingsViewModel.swift; sourceTree = "<group>"; };
+		74193AB12F289EEE0004F61F /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74193AB22F289EEE0004F61F /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74193AB32F289EEE0004F61F /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74193AB52F289EEE0004F61F /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74193AB62F289EEE0004F61F /* ActiveCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCycleView.swift; sourceTree = "<group>"; };
+		74193AB72F289EEE0004F61F /* CycleAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleAnalysisView.swift; sourceTree = "<group>"; };
+		74193AB82F289EEE0004F61F /* CycleBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBuilderView.swift; sourceTree = "<group>"; };
+		74193AB92F289EEE0004F61F /* CycleDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleDashboardView.swift; sourceTree = "<group>"; };
+		74193ABA2F289EEE0004F61F /* DetailedWeekPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedWeekPlanView.swift; sourceTree = "<group>"; };
+		74193ABB2F289EEE0004F61F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		74193ABC2F289EEE0004F61F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74193ABD2F289EEE0004F61F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74193ABE2F289EEE0004F61F /* WaveSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSettingsView.swift; sourceTree = "<group>"; };
+		74193ABF2F289EEE0004F61F /* WeekPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlanView.swift; sourceTree = "<group>"; };
+		74193AC12F289EEE0004F61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74193AC22F289EEE0004F61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74193AC32F289EEE0004F61F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74193AC42F289EEE0004F61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74193AC52F289EEE0004F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74193AC72F289EEE0004F61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74193AC92F289EEE0004F61F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74193ACA2F289EEE0004F61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74BA2A342F2216CA005A2C34 /* 63GearShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 63GearShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC568F7388FB9149D7F132 /* Pods-63GearShift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-63GearShift.debug.xcconfig"; path = "Target Support Files/Pods-63GearShift/Pods-63GearShift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		74BA2A6E2F22170F005A2C34 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74BA2A332F2216CA005A2C34 /* 63GearShift */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74BA2A662F22170F005A2C34 /* 63GearShift */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (74BA2A6E2F22170F005A2C34 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 63GearShift; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74BA2A312F2216CA005A2C34 /* Frameworks */ = {
@@ -47,10 +109,110 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		74193A9E2F289EEE0004F61F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74193A9D2F289EEE0004F61F /* Color+Brand.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74193AA62F289EEE0004F61F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74193A9F2F289EEE0004F61F /* Achievement.swift */,
+				74193AA02F289EEE0004F61F /* CycleGoal.swift */,
+				74193AA12F289EEE0004F61F /* CycleWeek.swift */,
+				74193AA22F289EEE0004F61F /* Exercise.swift */,
+				74193AA32F289EEE0004F61F /* TrainingCycle.swift */,
+				74193AA42F289EEE0004F61F /* TrainingSession.swift */,
+				74193AA52F289EEE0004F61F /* WaveSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74193AA82F289EEE0004F61F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				74193AA72F289EEE0004F61F /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74193AAA2F289EEE0004F61F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74193AA92F289EEE0004F61F /* WaveCalculator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74193AB02F289EEE0004F61F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74193AAB2F289EEE0004F61F /* AchievementViewModel.swift */,
+				74193AAC2F289EEE0004F61F /* ActiveCycleViewModel.swift */,
+				74193AAD2F289EEE0004F61F /* CycleBuilderViewModel.swift */,
+				74193AAE2F289EEE0004F61F /* CycleDashboardViewModel.swift */,
+				74193AAF2F289EEE0004F61F /* WaveSettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74193AB42F289EEE0004F61F /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74193AB12F289EEE0004F61F /* CheckLink.swift */,
+				74193AB22F289EEE0004F61F /* InternetViewController.swift */,
+				74193AB32F289EEE0004F61F /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74193AC02F289EEE0004F61F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74193AB42F289EEE0004F61F /* LoadingView */,
+				74193AB52F289EEE0004F61F /* AchievementsView.swift */,
+				74193AB62F289EEE0004F61F /* ActiveCycleView.swift */,
+				74193AB72F289EEE0004F61F /* CycleAnalysisView.swift */,
+				74193AB82F289EEE0004F61F /* CycleBuilderView.swift */,
+				74193AB92F289EEE0004F61F /* CycleDashboardView.swift */,
+				74193ABA2F289EEE0004F61F /* DetailedWeekPlanView.swift */,
+				74193ABB2F289EEE0004F61F /* HomeView.swift */,
+				74193ABC2F289EEE0004F61F /* OnboardingView.swift */,
+				74193ABD2F289EEE0004F61F /* SettingsView.swift */,
+				74193ABE2F289EEE0004F61F /* WaveSettingsView.swift */,
+				74193ABF2F289EEE0004F61F /* WeekPlanView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74193ACB2F289EEE0004F61F /* 63GearShift */ = {
+			isa = PBXGroup;
+			children = (
+				74193A9E2F289EEE0004F61F /* Extensions */,
+				74193AA62F289EEE0004F61F /* Models */,
+				74193AA82F289EEE0004F61F /* Services */,
+				74193AAA2F289EEE0004F61F /* Utilities */,
+				74193AB02F289EEE0004F61F /* ViewModels */,
+				74193AC02F289EEE0004F61F /* Views */,
+				74193AC12F289EEE0004F61F /* AppDelegate.swift */,
+				74193AC22F289EEE0004F61F /* Assets.xcassets */,
+				74193AC32F289EEE0004F61F /* ContentView.swift */,
+				74193AC42F289EEE0004F61F /* Info.plist */,
+				74193AC62F289EEE0004F61F /* LaunchScreen.storyboard */,
+				74193AC82F289EEE0004F61F /* Main.storyboard */,
+				74193AC92F289EEE0004F61F /* SceneDelegate.swift */,
+				74193ACA2F289EEE0004F61F /* ViewController.swift */,
+			);
+			path = 63GearShift;
+			sourceTree = "<group>";
+		};
 		74BA2A2B2F2216CA005A2C34 = {
 			isa = PBXGroup;
 			children = (
-				74BA2A662F22170F005A2C34 /* 63GearShift */,
+				74193ACB2F289EEE0004F61F /* 63GearShift */,
 				74BA2A352F2216CA005A2C34 /* Products */,
 				66DE7670C264A2970A82FC9F /* Pods */,
 				B9A3DAED447484B7A2AC5279 /* Frameworks */,
@@ -88,9 +250,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				74BA2A662F22170F005A2C34 /* 63GearShift */,
 			);
 			name = 63GearShift;
 			productName = 63GearShift;
@@ -135,6 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74193ACC2F289EEE0004F61F /* Assets.xcassets in Resources */,
+				74193ACE2F289EEE0004F61F /* LaunchScreen.storyboard in Resources */,
+				74193ACF2F289EEE0004F61F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +332,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74193AD02F289EEE0004F61F /* Color+Brand.swift in Sources */,
+				74193AD12F289EEE0004F61F /* Achievement.swift in Sources */,
+				74193AD22F289EEE0004F61F /* CycleGoal.swift in Sources */,
+				74193AD32F289EEE0004F61F /* CycleWeek.swift in Sources */,
+				74193AD42F289EEE0004F61F /* Exercise.swift in Sources */,
+				74193AD52F289EEE0004F61F /* TrainingCycle.swift in Sources */,
+				74193AD62F289EEE0004F61F /* TrainingSession.swift in Sources */,
+				74193AD72F289EEE0004F61F /* WaveSettings.swift in Sources */,
+				74193AD82F289EEE0004F61F /* StorageService.swift in Sources */,
+				74193AD92F289EEE0004F61F /* WaveCalculator.swift in Sources */,
+				74193ADA2F289EEE0004F61F /* AchievementViewModel.swift in Sources */,
+				74193ADB2F289EEE0004F61F /* ActiveCycleViewModel.swift in Sources */,
+				74193ADC2F289EEE0004F61F /* CycleBuilderViewModel.swift in Sources */,
+				74193ADD2F289EEE0004F61F /* CycleDashboardViewModel.swift in Sources */,
+				74193ADE2F289EEE0004F61F /* WaveSettingsViewModel.swift in Sources */,
+				74193ADF2F289EEE0004F61F /* CheckLink.swift in Sources */,
+				74193AE02F289EEE0004F61F /* InternetViewController.swift in Sources */,
+				74193AE12F289EEE0004F61F /* LoaderViewController.swift in Sources */,
+				74193AE22F289EEE0004F61F /* AchievementsView.swift in Sources */,
+				74193AE32F289EEE0004F61F /* ActiveCycleView.swift in Sources */,
+				74193AE42F289EEE0004F61F /* CycleAnalysisView.swift in Sources */,
+				74193AE52F289EEE0004F61F /* CycleBuilderView.swift in Sources */,
+				74193AE62F289EEE0004F61F /* CycleDashboardView.swift in Sources */,
+				74193AE72F289EEE0004F61F /* DetailedWeekPlanView.swift in Sources */,
+				74193AE82F289EEE0004F61F /* HomeView.swift in Sources */,
+				74193AE92F289EEE0004F61F /* OnboardingView.swift in Sources */,
+				74193AEA2F289EEE0004F61F /* SettingsView.swift in Sources */,
+				74193AEB2F289EEE0004F61F /* WaveSettingsView.swift in Sources */,
+				74193AEC2F289EEE0004F61F /* WeekPlanView.swift in Sources */,
+				74193AED2F289EEE0004F61F /* AppDelegate.swift in Sources */,
+				74193AEE2F289EEE0004F61F /* ContentView.swift in Sources */,
+				74193AEF2F289EEE0004F61F /* SceneDelegate.swift in Sources */,
+				74193AF02F289EEE0004F61F /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74193AC62F289EEE0004F61F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74193AC52F289EEE0004F61F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74193AC82F289EEE0004F61F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74193AC72F289EEE0004F61F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74BA2A482F2216CB005A2C34 /* Debug */ = {
@@ -186,6 +400,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 63GearShift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XX-Gear Shift";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GearShift needs access to your calendar to export training sessions.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-3GearShift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cad.xg3rsh1ft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +439,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 63GearShift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XX-Gear Shift";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GearShift needs access to your calendar to export training sessions.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-3GearShift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cad.xg3rsh1ft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
